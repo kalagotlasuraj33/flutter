@@ -1,0 +1,16 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+.DS_Store
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+.idea/
+.vscode/
+android/local.properties
+ios/Flutter/.last_build_id
