@@ -252,7 +252,7 @@ class CartPage extends StatelessWidget {
         ...items.map((p) => Card(color: Colors.white, child: ListTile(
           leading: CircleAvatar(child: Text(p.emoji)), title: Text(p.name),
           subtitle: Text('₹' + p.price.toStringAsFixed(0) + '  •  Qty ' + cart[p.id].toString()),
-          trailing: Wrap(mainAxisSize: MainAxisSize.min, children: [
+          trailing: Wrap(children: [
             IconButton(onPressed: () => onRemove(p), icon: const Icon(Icons.remove_circle_outline)),
             IconButton(onPressed: () => onAdd(p), icon: const Icon(Icons.add_circle_outline)),
           ]),
